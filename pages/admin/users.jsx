@@ -108,7 +108,7 @@ function AdminUsers() {
                 <Grid container alignItems="center">
                   <Grid item xs={6}>
                     <Typography component="h1" variant="h1">
-                      Products
+                      Users
                     </Typography>
                   </Grid>
                   <Grid item xs={6} align="right">
