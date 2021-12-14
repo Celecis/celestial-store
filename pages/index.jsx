@@ -15,11 +15,10 @@ import Design from '../components/layout';
 import db from '../utils/db';
 import Product from '../models/product-model';
 import axios from 'axios';
-import { useRouter } from 'next/router';
 import { useContext } from 'react';
 import { AppStore } from '../utils/store';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   button: {
     fontFamily: "'Comfortaa', cursive",
   },
@@ -27,7 +26,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Home(props) {
   const styles = useStyles();
-  const router = useRouter();
   const { state, dispatch } = useContext(AppStore);
   const { products } = props;
 

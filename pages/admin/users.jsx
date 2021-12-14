@@ -23,7 +23,6 @@ import {
   ListItem,
   ListItemText,
   CircularProgress,
-  CardMedia,
 } from '@material-ui/core';
 import useStyles from '../../utils/styles';
 

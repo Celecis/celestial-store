@@ -11,7 +11,6 @@ import {
   Button,
   makeStyles,
 } from '@material-ui/core';
-import { useRouter } from 'next/router';
 //import data from '../../utils/data';
 import { AppStore } from '../../utils/store';
 import Design from '../../components/layout';
@@ -32,7 +31,6 @@ const useStyles = makeStyles((theme) => ({
 export default function ViewProduct(props) {
   const { state, dispatch } = useContext(AppStore);
   const { product } = props;
-  const router = useRouter();
   const styles = useStyles();
   //const router = useRouter();
   //const { slug } = router.query;

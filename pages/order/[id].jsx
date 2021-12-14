@@ -65,7 +65,7 @@ function Order({ params }) {
     }
   }, [order, successDeliver]);
 
-  const { closeSnackbar, enqueueSnackbar } = useSnackbar();
+  const { enqueueSnackbar } = useSnackbar();
 
   async function deliverOrderHandler() {
     try {

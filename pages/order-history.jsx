@@ -7,7 +7,6 @@ import { AppStore } from '../utils/store';
 import { reducer, initialState } from '../utils/orderRequest';
 import { getError } from '../utils/error';
 import Design from '../components/layout';
-import Image from 'next/image';
 import {
   Grid,
   Typography,

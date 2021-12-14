@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
 import Design from '../components/layout';
 import { useRouter } from 'next/router';
 import NextLink from 'next/link';
@@ -138,7 +138,7 @@ export default function Login() {
           </ListItem>
 
           <ListItem>
-            Don't have an account? &nbsp;
+            Don&apos;t have an account? &nbsp;
             <NextLink href={'/register'} passHref>
               <Link>Register</Link>
             </NextLink>

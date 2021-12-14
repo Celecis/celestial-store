@@ -20,7 +20,7 @@ import {
   MenuItem,
 } from '@material-ui/core';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   navbar: {
     backgroundColor: '#b9cee3',
     '& a': {
