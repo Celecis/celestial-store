@@ -116,7 +116,7 @@ function EditProduct({ params }) {
     try {
       dispatch({ type: 'UPDATE_REQUEST' });
       await axios.put(
-        `/api/admin/product/${productId}`,
+        `/api/admin/products/${productId}`,
         {
           slug,
           name,
