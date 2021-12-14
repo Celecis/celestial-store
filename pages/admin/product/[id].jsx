@@ -34,6 +34,7 @@ function EditProduct({ params }) {
     formState: { errors },
     setValue,
   } = useForm();
+  //
 
   const { enqueueSnackbar, closeSnackbar } = useSnackbar();
   const router = useRouter();
