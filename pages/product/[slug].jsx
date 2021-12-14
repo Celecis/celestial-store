@@ -18,7 +18,7 @@ import Product from '../../models/product-model';
 import db from '../../utils/db';
 import axios from 'axios';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   section: {
     margin: '10px 0px',
   },
